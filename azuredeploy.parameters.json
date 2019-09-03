@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+
+    "keyVaultName": {
+      "value": "SantiaKeyVault"
+    },
+   
+    "location": {
+      "value": "Southeast Asia"
+    },
+    "sku": {
+      "value": "Standard"
+    },
+    "accessPolicies": {
+      "value": []
+    },
+    "secretName": {
+      "value": "SaddiqueKhan"
+    },
+    "secretValue": {
+      "value": "santia@Netherland"
+    },
+
+   "tenantId": {
+      "value": "e3a05245-eb25-4445-b451-64158e1f53cf"
+    },
+   
+   "enabledForDeployment": {
+      "value": false
+    },
+   
+   "enabledForTemplateDeployment": {
+      "value": false
+    },
+   
+   "enabledForDiskEncryption": {
+      "value": false
+    }
+  }
